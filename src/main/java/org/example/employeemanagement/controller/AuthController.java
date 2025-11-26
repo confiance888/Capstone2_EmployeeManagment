@@ -31,7 +31,7 @@ public class AuthController {
     public AuthController(AuthenticationManager authenticationManager,
                           JwtService jwtService,
                           UserService userService) {
-        .this.authenticationManager = authenticationManager;
+        this.authenticationManager = authenticationManager;
         this.jwtService = jwtService;
         this.userService = userService;
     }
