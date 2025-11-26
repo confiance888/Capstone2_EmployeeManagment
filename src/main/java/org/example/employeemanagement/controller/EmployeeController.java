@@ -1,10 +1,10 @@
 package org.example.employeemanagement.controller;
 
-import com.example.employeemanagement.dto.EmployeeDto;
-import com.example.employeemanagement.model.Employee;
-import com.example.employeemanagement.service.EmployeeService;
-import com.example.employeemanagement.util.MapperUtil;
+import org.example.employeemanagement.dto.EmployeeDto;
 import jakarta.validation.Valid;
+import org.example.employeemanagement.model.Employee;
+import org.example.employeemanagement.service.EmployeeService;
+import org.example.employeemanagement.util.MapperUtil;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

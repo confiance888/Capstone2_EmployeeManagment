@@ -34,6 +34,6 @@ build/
 
 # Local environment files (do not commit secrets)
 .env
-.env.*
-!.env.example
-.env.example
+.env
+!.env
+.env
